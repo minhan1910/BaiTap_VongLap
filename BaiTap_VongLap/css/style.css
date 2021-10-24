@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container form {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.exNoInput .container form p:nth-last-child(){
+    margin-bottom: 10px;
+}
+
+.exNoInput .container form button {
+    margin-bottom: 10px;
+}
